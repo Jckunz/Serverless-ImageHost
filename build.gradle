@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.0.0'
+    id 'io.spring.dependency-management' version '1.1.0'
+}
+
+allprojects {
+
+    group 'com.serverless.imagehost'
+    version '1.0-SNAPSHOT'
+    sourceCompatibility = '17'
+    repositories {
+        mavenCentral()
+    }
+    test {
+        useJUnitPlatform()
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}

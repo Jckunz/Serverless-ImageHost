@@ -1,0 +1,4 @@
+rootProject.name = 'Serverless_ImageHost'
+include 'ImageProcessing'
+include 'ServiceRegistration'
+
